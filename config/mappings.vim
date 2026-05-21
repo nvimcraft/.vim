@@ -37,3 +37,11 @@ nnoremap <leader>gw :Gwrite<CR>
 nnoremap <leader>gu :Gread<CR>
 nnoremap <leader>gc :G commit<CR>
 nnoremap <leader>gp :G push<CR>
+
+# GitGutter mappings
+nmap ]c <Plug>(GitGutterNextHunk)
+nmap [c <Plug>(GitGutterPrevHunk)
+nmap <Leader>hs <Plug>(GitGutterStageHunk)
+nmap <Leader>hu <Plug>(GitGutterUndoHunk)
+nmap <Leader>hp <Plug>(GitGutterPreviewHunk)
+nmap <Leader>hS <Plug>(GitGutterStageAll)
