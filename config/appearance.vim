@@ -9,7 +9,7 @@ set background=dark
 
 # Syntax highlighting
 syntax on
-colorscheme habamax
+colorscheme retrobox
 
 # Command line completion
 set wildmenu
